@@ -7,6 +7,6 @@ And then 'Sales' was predicted taking predicted 'Order' as a variable in test da
 Then it was observed that previous approach had a high MSLE score. So 'Order' column was dropped from that train data as well.
 Day, month, and year features were made out with the help of date and The date was dropped
 Pycaret was tried and it was observed that Random Forest has the lest MSLE score
-So RF was tuned and prediction was made by using the tuned hyperparameteres.
+So RF was tuned and prediction was made by using the tuned hyperparameteres
 
 Note: Pycaret is a sort of AutoML library. Instead of Pycaret, if we want to do it manually then we can try a bunch of models. And then compare their performance to get the best model. Then we can tune the hyperparameters using GridSearchCV/RandomizedSearchCV. Pycaret just makes it simple to compare the models and tune the hyperparameters.
